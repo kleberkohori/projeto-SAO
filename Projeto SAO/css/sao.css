@@ -1,0 +1,142 @@
+@font-face{
+    font-family: 'OpenSans';
+    src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+    font-size: 1em;
+}
+
+
+header {
+    width: 100%;
+    height: 190px;
+    /* background-color:#2ecc71; */
+    /* background-image: linear-gradient(to bottom, rgba(255,255,255,.1), rgba(255,255,255,.4), rgba(255,255,255,0), rgba(255,255,255,.4)); */
+    background-image: linear-gradient(to bottom,#050f79cb,#16a0848c,#050f79cb ) ; 
+}
+
+header .container {
+    
+    position: relative;
+
+}
+
+header .header-black {
+    width: 100%;
+    height: 50px;
+    background-color:(to top, #000000) ;
+}
+
+
+#icone-1{
+    width: 60px;
+    height: 60px;
+    top: 10px;
+    position: absolute;
+}
+#icone-2{
+    width: 60px;
+    height: 60px;
+    top: 10px;
+    position: absolute;
+}
+#icone-3{
+    width: 60px;
+    height: 60px;
+    top: 10px;
+    position: absolute;
+}
+#icone-4{
+    width: 60px;
+    height: 60px;
+    top: 10px;
+    position: absolute;
+}
+#icone-5{
+    width: 60px;
+    height: 60px;
+    top: 10px;
+    position: absolute;
+}
+#icone-6{
+    width: 60px;
+    height: 60px;
+    top: 10px;
+    position: absolute;
+}
+#icone-7{
+    width: 60px;
+    height: 60px;
+    top: 10px;
+    position: absolute;
+}
+
+header .header-black li{
+    /* background-image: url("../img/icone2.png"); */
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 50px;       
+}
+header .header-black li a{
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+
+header .esquerda {
+    /*inversão de imagem (espelhado)*/
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);   
+    
+    left: 1%;      
+    top: 1%;
+    position: absolute;
+}
+
+header .direita {    
+    right: 1%;    
+    top: 1%;
+    position: absolute;
+}
+
+header #chibi1 {    
+    height: 260px;    
+}
+
+body {
+    background-color: #ecf0f1;
+}
+
+#menu li {
+    float: right;
+    display: inline-block;    
+    font-family: "OpenSans";
+    margin: 80px 25px 10px 0px;    
+}
+#menu li.search input {
+    background-color:rgba(52, 94, 233, 0);
+    color: #ffffff;
+       
+}
+
+#menu li .search{
+
+    width: 182px;
+
+}
+
+#menu .menu li{
+    margin: 88px 25px 10px 0px;        
+}
+
+#menu li.search ::-webkit-input-placeholder {    
+    color: #ffffff;
+       
+}
+
+li a{  
+    
+    color: azure;
+    font-size: 16px;    
+}
+
