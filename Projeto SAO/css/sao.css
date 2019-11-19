@@ -11,6 +11,8 @@ header {
     /* background-color:#2ecc71; */
     /* background-image: linear-gradient(to bottom, rgba(255,255,255,.1), rgba(255,255,255,.4), rgba(255,255,255,0), rgba(255,255,255,.4)); */
     background-image: linear-gradient(to bottom,#050f79cb,#16a0848c,#050f79cb ) ; 
+    z-index: 2;
+    position: relative;
 }
 
 header .container {
@@ -130,7 +132,16 @@ body {
 }
 
 #menu li.search ::-webkit-input-placeholder {    
-    color: #ffffff;
+    color: rgba(255, 255, 255, .4);
+       
+}
+
+#menu li.search button {
+    font-size: 20px;
+    position: absolute;
+    right: 49px;
+    top: 80px;
+    border: none;
        
 }
 
@@ -138,5 +149,24 @@ li a{
     
     color: azure;
     font-size: 16px;    
+}
+
+#banner {
+
+    width: 100%;
+    height: 1100px;
+    position: relative;
+    background: url(../img/img5.jpg) no-repeat;
+    bottom: 200px;
+    
+
+}
+
+footer .teste {
+    
+    background-color: black;
+    color: red;
+    position: relative;
+    
 }
 
